@@ -36,7 +36,7 @@ namespace Full_GRASP_And_SOLID
         public string GetTextToPrint()
         {
             return $"{this.Quantity} de '{this.Input.Description}' " +
-                $"usando '{this.Equipment.Description}' durante {this.Time}";
+                $"usando '{this.Equipment.Description}' durante {this.Time} minutos";
         }
     }
 }
